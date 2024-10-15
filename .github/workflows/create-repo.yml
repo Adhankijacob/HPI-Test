@@ -55,7 +55,7 @@ jobs:
           repo_details=${{ steps.read-repo-details.outputs.repo_details }}
           curl -H "Authorization: token ${{ secrets.GH_TOKEN }}" \
                -d '{"name":"${{ steps.read-json.outputs.repo_name }}"}' \
-               https://api.github.com/user/repos
+               https://Adhankijacob@github.com/Adhankijacob/app-repo1.git
       
       - name: Checkout source repository
         uses: actions/checkout@v4
