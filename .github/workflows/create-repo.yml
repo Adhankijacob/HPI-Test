@@ -120,7 +120,7 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "Update terraform.tfvars"
-          git push https://***@github.com/SVenkataSivaSatish/app-repo1.git
+          git push https://github.com/Adhankijacob/app-repo1.git
         fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
